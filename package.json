@@ -7,7 +7,6 @@
 	"version": "2.14.0",
 	"dependencies": {
 		"express": "^4.14.0",
-		"moment": "^2.x.x"
 	},
 	"main": "server.js",
 	"scripts": {
