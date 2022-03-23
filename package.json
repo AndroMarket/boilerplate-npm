@@ -1,6 +1,7 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Andromarket",
+	"description": "A project that does study att freeCodeCamp",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
