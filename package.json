@@ -4,10 +4,10 @@
 	"description": "A project that does study att freeCodeCamp",
 	"keywords": ["descriptive", "related", "words", "freecodecamp"],
 	"license": "MIT",
-	"version": "1.1.1",
+	"version": "2.14.0",
 	"dependencies": {
 		"express": "^4.14.0",
-		moment": "^2.29.1"
+		"moment": "^2.29.1"
 	},
 	"main": "server.js",
 	"scripts": {
