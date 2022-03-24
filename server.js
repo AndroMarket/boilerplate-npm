@@ -35,8 +35,9 @@ app.route('/_api/package.json')
   
 app.route('/')
     .get(function(req, res) {
-		  res.sendFile(process.cwd() + '/views/index.html');
+		  res.sendFile(process.cwd() + '/views/index');
     })
+    .set('view engine', 'ejs')
 
 // Respond not found to all the wrong routes
 app.use(function(req, res, next){
