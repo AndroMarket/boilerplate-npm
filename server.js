@@ -15,8 +15,6 @@ const app = express();
 
 
 app.use(express.static("./public/"));
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
-app.get("/*", (req, res) => res.sendFile("index", { root: "/views/" }));
+app.get("/*", (req, res) => res.sendFile("index.html", { root: "/views/" }));
 
 app.listen(process.env.PORT || 8080);
