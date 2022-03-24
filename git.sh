@@ -1,5 +1,4 @@
 git add .
-sleep 1
 echo 'type your commit'
 read commit
 git commit -m "$commit"
