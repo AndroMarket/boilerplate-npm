@@ -1,0 +1,8 @@
+{
+  "name": "fcc-learn-npm-package-json",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/AndroMarket/boilerplate-npm",
+  "logo": "https://res.cloudinary.com/practicaldev/image/fetch/s--MYZ584sb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://secure.meetupstatic.com/photos/event/4/c/b/b/600_468259643.jpeg",
+  "keywords": ["node", "express", "heroku", "bootstrap", "fontawesome", "freecodecamp"],
+  "image": "heroku/nodejs"
+}

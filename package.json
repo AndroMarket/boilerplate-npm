@@ -1,19 +1,36 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"author": "Andromarket",
-	"description": "A project that does study att freeCodeCamp",
-	"keywords": ["descriptive", "related", "words", "freecodecamp"],
-	"license": "MIT",
-	"version": "2.14.0",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/AndroMarket/boilerplate-npm.git"
-	}
+  "name": "fcc-learn-npm-package-json",
+  "version": "2.14.0",
+  "description": "A project that does study att freeCodeCamp",
+  "author": "Andromarket",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndroMarket/boilerplate-npm.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "bootstrap",
+	   "fontawesome",
+    "freecodecamp"
+  ],
+  "license": "MIT"
 }
